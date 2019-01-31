@@ -4,6 +4,8 @@ import java.util.Scanner;
 // A program integrating skills learned in COP 2006
 
 
+//changes to just for testing
+
 //Control (CMND (ON MAC)) Shift + F = Format
 
 // when going from numbers to strong, clear buffer
