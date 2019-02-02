@@ -22,10 +22,18 @@ public class Main {
 class Introduction {
 	public static void main(String [] args) {
 		
+		//creating boolean values
+		boolean first = true;
+		boolean second = false; 
 		
+		//setting strings to the boolean value
+		String bLean = Boolean.toString(first);
+		String cLean = Boolean.toString(second);
 		
+		//printing out the string in the console to return the value
 		
-		
+		System.out.println(bLean);
+		System.out.println(cLean);
 		
 		
 	}
@@ -51,6 +59,9 @@ class Excersise {
   }
 }
 
+//Variable is a location in memory
+
+//
 
 class Clock {
   // fields
