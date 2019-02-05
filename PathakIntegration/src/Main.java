@@ -26,8 +26,13 @@ public class Main {
 			Car mysteryMachine = new Car();
 			
 			myCar.setColor("Red");
-			System.out.println(myCar.getColor());
+			kit.setColor("Black");
+			mysteryMachine.setColor("Green");
 			
+			
+			System.out.println(myCar.getColor());
+			System.out.println(kit.getColor());
+			System.out.println(mysteryMachine.getColor());
 			
 			// creating boolean values
 			boolean first = true;
