@@ -8,6 +8,7 @@ import java.util.Scanner;
 //Control (CMND (ON MAC)) Shift + F = Format
 
 // when going from numbers to strong, clear buffer
+//Driver Class
 public class Main {
 
 	public static void main(String[] args) {
@@ -20,6 +21,14 @@ public class Main {
 	static class Introduction {
 		public static void main(String[] args) {
 
+			Car myCar = new Car();
+			Car kit = new Car();
+			Car mysteryMachine = new Car();
+			
+			myCar.setColor("Red");
+			System.out.println(myCar.getColor());
+			
+			
 			// creating boolean values
 			boolean first = true;
 			boolean second = false;
