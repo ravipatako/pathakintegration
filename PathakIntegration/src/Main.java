@@ -17,9 +17,9 @@ public class Main {
     Excersise.Data();
   }
 
-}
 
-class Introduction {
+
+ static class Introduction {
 	public static void main(String [] args) {
 		
 		//creating boolean values
@@ -39,7 +39,7 @@ class Introduction {
 	}
 }
 
-class Excersise {
+static class Excersise {
   public static void Data() {
     int int1 = 2;
     double double1 = 2.0;
@@ -63,12 +63,6 @@ class Excersise {
 
 //
 
-class Clock {
-  // fields
-  private int angleOfHourHand;
-  private int angleOfMinuteHand;
-
-  // methods
-  public void tellTime() {}
 
 }
+
