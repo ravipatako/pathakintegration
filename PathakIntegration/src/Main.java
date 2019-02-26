@@ -13,30 +13,26 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Hello, to my Integration Project for COP 2006");
-		Introduction.carDemo();
-		Exercise.doData();
-		inClass();
+		// Scanner getting the name for input
+		Scanner userName = new Scanner(System.in);
+		System.out.println("Enter your Name: ");
+		String name = userName.nextLine();
 
-	}
+		// getting the hourly wage from the user
+		Scanner hourlyWage = new Scanner(System.in);
+		System.out.println("Enter your hourly wage: ");
+		double wage = userName.nextDouble();
 
-	
+		// user inputing their worked hours during the cycle
+		Scanner weeklyHours = new Scanner(System.in);
+		System.out.println("How many hours did you work this payement cycle?: ");
+		double workedHours = userName.nextDouble();
 
-	
-
-	public static void inClass() {
-		double num1 = 5;
-		double num2 = 10;
-		// this is a call, in the paraenthesses is an argument
-		double squared = squaredIt(num1, num2, "Hello");
-		System.out.println(squared);
-
+		//Telling the user their potential totale payement before taxes
+		double potentialPayment = workedHours * wage;
+		System.out.println("So, " + name + "you could be have a potential paycheck of $" + potentialPayment + " before taxes of course.");
 		
-
-	}
-	public static double squaredIt(double num1, double num2, String string) {
-		// TODO Auto-generated method stub
-		return num1 * num1;
+		
 	}
 
 //Variable is a location in memory that contains data

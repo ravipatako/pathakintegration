@@ -18,3 +18,28 @@ public class Exercise {
 			System.out.println("The result of + with Strings is " + (string1 + string2));
 		}
 	}
+
+/**
+
+public static void inClass() {
+	double num1 = 5;
+	double num2 = 10;
+	// this is a call, in the paraenthesses is an argument
+	double squared = squaredIt(num1, num2, "Hello");
+	System.out.println(squared);
+
+	
+
+}
+
+**/
+
+/**
+
+public static double squaredIt(double num1, double num2, String string) {
+	// TODO Auto-generated method stub
+	return num1 * num1;
+}
+
+
+**/
