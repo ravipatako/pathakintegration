@@ -1,4 +1,4 @@
-# pathakintegration
+# Pathakintegration
 
 PSI 1
 Add your name as a comment at top of every file
