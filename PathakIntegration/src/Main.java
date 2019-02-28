@@ -28,11 +28,17 @@ public class Main {
 		System.out.println("How many hours did you work this payement cycle?: ");
 		double workedHours = userName.nextDouble();
 
-		//Telling the user their potential totale payement before taxes
+		/*
+		 * Calculates the users's potential net income Then it takes out the taxes and
+		 * prints the result As well prints the payment before taxes
+		 */
+		
 		double potentialPayment = workedHours * wage;
-		System.out.println("So, " + name + "you could be have a potential paycheck of $" + potentialPayment + " before taxes of course.");
+		double paycheck = Taxes.taxedMoney(wage, potentialPayment);
+		System.out.println("This is your taxed paycheck: $" + paycheck + "\n The taxes took out: $" + (potentialPayment - paycheck));
 		
 		
+
 	}
 
 //Variable is a location in memory that contains data
