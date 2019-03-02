@@ -11,8 +11,10 @@ import java.util.Scanner;
 // when going from numbers to strong, clear buffer
 //Driver Class
 public class Main {
-
+			//header with the parameters in main method
 	public static void main(String[] args) {
+		System.out.println("Hellow, welcome to the TO BE NAMED calculator for finances. \n Please complete the information below");
+		
 		// Scanner getting the name for input
 		Scanner userName = new Scanner(System.in);
 		System.out.println("Enter your Name: ");
@@ -21,12 +23,12 @@ public class Main {
 		// getting the hourly wage from the user
 		Scanner hourlyWage = new Scanner(System.in);
 		System.out.println("Enter your hourly wage: ");
-		double wage = userName.nextDouble();
+		double wage = hourlyWage.nextDouble();
 
 		// user inputing their worked hours during the cycle
 		Scanner weeklyHours = new Scanner(System.in);
 		System.out.println("How many hours did you work this payement cycle?: ");
-		double workedHours = userName.nextDouble();
+		double workedHours = weeklyHours.nextDouble();
 
 		/*
 		 * Calculates the users's potential net income Then it takes out the taxes and
@@ -34,11 +36,14 @@ public class Main {
 		 */
 		
 		double potentialPayment = workedHours * wage;
-		double paycheck = Taxes.taxedMoney(wage, potentialPayment);
+		double paycheck = Taxes.taxedMoney(wage, potentialPayment); //Calling the method and using the parameters "wage" and "Potential Payment"
 		System.out.println("This is your taxed paycheck: $" + paycheck + "\n The taxes took out: $" + (potentialPayment - paycheck));
 		
+		Scanner financeOrganize = new Scanner(System.in);
+		System.out.println("(Enter True/False) Would you like to organize your money? : ");
+		boolean organizeMoney = financeOrganize.nextBoolean();
 		
-
+		System.out.println(Categorize.budget(paycheck, organizeMoney));
 	}
 
 //Variable is a location in memory that contains data
