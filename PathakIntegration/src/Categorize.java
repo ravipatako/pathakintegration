@@ -1,4 +1,5 @@
-
+// Ravi Pathak
+// A program integrating skills learned in COP 2006
 public class Categorize {
 
 	public static String budget(double paycheck, boolean organizeMoney) {

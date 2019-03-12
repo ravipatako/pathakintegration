@@ -1,4 +1,5 @@
-
+// Ravi Pathak
+// A program integrating skills learned in COP 2006
 public class Taxes {
 
 	public static double taxedMoney (double wage, double potentialPayment) {

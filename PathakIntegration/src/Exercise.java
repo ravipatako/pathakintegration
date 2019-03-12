@@ -1,3 +1,5 @@
+// Ravi Pathak
+// A program integrating skills learned in COP 2006
 public class Exercise {
 		public static void doData() {
 			int int1 = 2;

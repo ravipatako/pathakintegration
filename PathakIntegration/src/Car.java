@@ -1,4 +1,5 @@
-
+// Ravi Pathak
+// A program integrating skills learned in COP 2006
 public class Car {
 	
 	private String color;
