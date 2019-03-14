@@ -4,7 +4,8 @@ public class Categorize {
 
 	public static String budget(double paycheck, boolean organizeMoney) {
 		String error = "Just so you know the calculator was made by Ravi Pathak." + "\n (Small plug from me)";
-
+		
+		//using the == isEqualTo operator to make sure that the user wants help with their money
 		if (organizeMoney == true) {
 			System.out.println("I am here to help");
 

@@ -18,7 +18,10 @@ public class Taxes {
 			else if (wage >= 20.1) {
 				return potentialPayment * 0.80;
 			}
-			return 0;
+			
+			else {
+				return 0;
+			}
 	}
 
 }
