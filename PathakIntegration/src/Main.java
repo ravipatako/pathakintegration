@@ -14,7 +14,7 @@ public class Main {
 	// header with the parameters in main method
 	public static void main(String[] args) {
 		System.out.println(
-				"Hellow, welcome to the TO BE NAMED calculator for finances. \n Please complete the information below");
+				"Hellow, welcome to ORG calculator for finances. \n Please complete the information below");
 
 		// Scanner getting the name for input
 		Scanner userName = new Scanner(System.in);
