@@ -13,23 +13,24 @@ import java.util.Scanner;
 public class Main {
 	// header with the parameters in main method
 	public static void main(String[] args) {
-		System.out.println(
-				"Hellow, welcome to ORG calculator for finances. \n Please complete the information below");
+
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("Hellow, welcome to ORG calculator for finances. \n Please complete the information below");
 
 		// Scanner getting the name for input
-		Scanner userName = new Scanner(System.in);
 		System.out.println("Enter your Name: ");
-		String name = userName.nextLine();
+		String name = scan.nextLine();
 
 		// getting the hourly wage from the user
-		Scanner hourlyWage = new Scanner(System.in);
 		System.out.println("Enter your hourly wage: ");
-		double wage = hourlyWage.nextDouble();
+		double wage = scan.nextDouble();
+		scan.nextLine();
 
 		// user inputing their worked hours during the cycle
-		Scanner weeklyHours = new Scanner(System.in);
 		System.out.println("How many hours did you work this payement cycle?: ");
-		double workedHours = weeklyHours.nextDouble();
+		double workedHours = scan.nextDouble();
+		scan.nextLine();
 
 		/*
 		 * Calculates the users's potential net income Then it takes out the taxes and
@@ -42,18 +43,13 @@ public class Main {
 		System.out.println("This is your taxed paycheck: $" + paycheck + "\n The taxes took out: $"
 				+ (potentialPayment - paycheck));
 
-		Scanner financeOrganize = new Scanner(System.in);
-		System.out.println("(Enter True/False) Would you like to organize your money? : ");
-		boolean organizeMoney = financeOrganize.nextBoolean();
+		System.out.println("Would you like to organize your money?  ");
+		String inputString = scan.nextLine();
 
-		System.out.println(Categorize.budget(paycheck, organizeMoney));
-	
-		
-		
-		
-		
+		//Comparing the input to the if else statement in the categorize class
+		System.out.println(Categorize.budget(paycheck, inputString));
+
 	}
-	
 
 //Variable is a location in memory that contains data
 //Scope the whole class definition
@@ -68,3 +64,27 @@ public class Main {
 	 */
 
 }
+
+/*
+ * Describe inheritance and its benefits Inheritance is when an object receives
+ * values from a parental object. Example of this would be having a person class
+ * and then having a worker class getting fields and methods from the person
+ * class The benefits include being able to create object more quickly and more
+ * specifically.
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */

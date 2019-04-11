@@ -2,15 +2,22 @@
 // A program integrating skills learned in COP 2006
 public class Categorize {
 
-	public static String budget(double paycheck, boolean organizeMoney) {
+	// At first the if statement was working with boolean values, but now it should
+	// be changed to running an
+	// string for being YES/NO
+
+	public static String budget(double paycheck, String inputString) {
 		String error = "Just so you know the calculator was made by Ravi Pathak." + "\n (Small plug from me)";
-		
-		//using the == isEqualTo operator to make sure that the user wants help with their money
-		if (organizeMoney == true) {
+
+		// using the == isEqualTo operator to make sure that the user wants help with
+		// their money
+		if (inputString.equals("Yes")) {
 			System.out.println("I am here to help");
 
-		} else {
+		} else if (inputString.equals("No")) {
 			System.out.println("Sorry we couldnt help. I hope you enjoyed the calculator though!");
+		} else {
+			System.out.println("Sorry but you went wrong somewhere. Please try again!");
 		}
 		return error;
 
