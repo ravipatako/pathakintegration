@@ -7,22 +7,40 @@ public class Categorize {
 	// string for being YES/NO
 
 	public static String budget(double paycheck, String inputString) {
-		String error = "Just so you know the calculator was made by Ravi Pathak." + "\n (Small plug from me)";
+		String error = "";
 
 		// using the == isEqualTo operator to make sure that the user wants help with
 		// their money
-		if (inputString.equals("Yes")) {
-			System.out.println("I am here to help");
-
+		if (inputString.equals("yes")) {
+			System.out.println("Great, well Im here to help \n So lets get right into it and save you some money! ");
+		} else if (inputString.equals("Yes")) {
+			System.out.println("Great, well Im here to help \n So lets get right into it and save you some money! ");
 		} else if (inputString.equals("No")) {
-			System.out.println("Sorry we couldnt help. I hope you enjoyed the calculator though!");
+			System.out.println("Sorry we couldnt help. I hope you enjoyed the calculator though!"
+					+ "\n Just so you know the calculator was made by Ravi Pathak.\n (Small plug from me)");
 		} else {
-			System.out.println("Sorry but you went wrong somewhere. Please try again!");
+			System.out.println("Sorry but you went wrong somewhere. Please try again!"
+					+ "\n Just so you know the calculator was made by Ravi Pathak.\n (Small plug from me)");
 		}
 		return error;
 
 	}
+	
+	public static String categories(int moneySplit) {
+		String goofed = "";
+		
+		
+		
+		
+		
+		return goofed;
+	}
+	
+	
 }
+
+
+
 
 /*
  * This budget method is going to go into a loop It will loop peoples money into

@@ -46,8 +46,13 @@ public class Main {
 		System.out.println("Would you like to organize your money?  ");
 		String inputString = scan.nextLine();
 
-		//Comparing the input to the if else statement in the categorize class
+		// Comparing the input to the if else statement in the categorize class
 		System.out.println(Categorize.budget(paycheck, inputString));
+
+		System.out.println(
+				"Now that we know you want to organize your new found wealth, how many categorize do you want it to get split up into? ");
+		int moneySplit = scan.nextInt();
+		scan.nextLine();
 
 	}
 
