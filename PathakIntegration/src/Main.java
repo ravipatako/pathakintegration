@@ -54,6 +54,13 @@ public class Main {
 		int moneySplit = scan.nextInt();
 		scan.nextLine();
 
+		
+		
+		
+		
+		
+		
+		
 	}
 
 //Variable is a location in memory that contains data
