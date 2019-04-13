@@ -53,6 +53,10 @@ public class Main {
 				"Now that we know you want to organize your new found wealth, \n how many categorize do you want it to get split up into? ");
 		int moneySplit = scan.nextInt();
 		scan.nextLine();
+		//Getting input from the user telling how many categories they want their money sort
+		
+		
+	
 
 		
 		
