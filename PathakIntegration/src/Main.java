@@ -50,7 +50,7 @@ public class Main {
 		System.out.println(Categorize.budget(paycheck, inputString));
 
 		System.out.println(
-				"Now that we know you want to organize your new found wealth, how many categorize do you want it to get split up into? ");
+				"Now that we know you want to organize your new found wealth, \n how many categorize do you want it to get split up into? ");
 		int moneySplit = scan.nextInt();
 		scan.nextLine();
 
