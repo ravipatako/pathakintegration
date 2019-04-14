@@ -25,31 +25,14 @@ public class Categorize {
 		return error;
 
 	}
-	
+
 	public static String categories(int moneySplit) {
 		String goofed = "";
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 		return goofed;
 	}
-	
-	
+
 }
-
-
-
 
 /*
  * This budget method is going to go into a loop It will loop peoples money into

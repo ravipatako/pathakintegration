@@ -53,22 +53,13 @@ public class Main {
 				"Now that we know you want to organize your new found wealth, \n how many categorize do you want it to get split up into? ");
 		int moneySplit = scan.nextInt();
 		scan.nextLine();
-		//Getting input from the user telling how many categories they want their money sort
-		
-		
-	
+		// Getting input from the user telling how many categories they want their money
+		// sort
 
-		
-		
-		
-		
-		
-		
-		
 	}
 
-//Variable is a location in memory that contains data
-//Scope the whole class definition
+	// Variable is a location in memory that contains data
+	// Scope the whole class definition
 
 	/*
 	 * Byte - Used for saving memory, can be used instead of Int Short - Used for
@@ -82,25 +73,10 @@ public class Main {
 }
 
 /*
- * Describe inheritance and its benefits Inheritance is when an object receives
- * values from a parental object. Example of this would be having a person class
- * and then having a worker class getting fields and methods from the person
- * class The benefits include being able to create object more quickly and more
- * specifically.
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
+ * Describe inheritance and its benefits - Inheritance is when an object
+ * receives values from a parental object. Example of this would be having a
+ * person class and then having a worker class getting fields and methods from
+ * the person class The benefits include being able to create object more
+ * quickly and more specifically
  * 
  */
