@@ -14,7 +14,7 @@ Develop code that makes use of polymorphism
 -- Main.Java and Loans.Java
 
 Use super and this to access objects and constructors
---
+-- Installment.Java
 
 Declare, instantiate, initialize and use a one-dimensional array
 --
