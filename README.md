@@ -1,6 +1,6 @@
-# Pathakintegration
+# Pathakintegration PSI 3
 
-PSI 3
+
 Make a class in a separate file with private fields, public getters and setters, a constructor with and without parameters
 -- Integration.java 
 
