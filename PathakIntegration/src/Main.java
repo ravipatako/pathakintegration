@@ -67,7 +67,8 @@ public class Main {
 		for (int x = 0; x < 5; ++x) {
 			borrow[x].approved();
 		}
-
+		
+	
 	}
 
 	// Variable is a location in memory that contains data

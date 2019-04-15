@@ -9,4 +9,10 @@ public class Installment extends Loans {
 		System.out.println("Sorry you were declined, for your loan. ");
 	}
 
+	void interest() {
+		this.autoLoan = 1;
+		this.homeLoan = 2;
+
+		System.out.println("Two examples of Installment loans = " + autoLoan + homeLoan);
+	}
 }
