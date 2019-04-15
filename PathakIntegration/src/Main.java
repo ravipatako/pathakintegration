@@ -55,7 +55,18 @@ public class Main {
 		scan.nextLine();
 		// Getting input from the user telling how many categories they want their money
 		// sort
-
+		
+		Loans[] borrow = new Loans[5];
+		borrow[0] = new Installment();
+		borrow[1] = new Fixedrate();
+		borrow[2] = new Installment();
+		borrow[3] = new Fixedrate();
+		borrow[4] = new Installment();
+		borrow[5] = new Installment();
+		
+		for (int x=0; x<5;++x) {
+			borrow[x].approved();
+		}
 	}
 
 	// Variable is a location in memory that contains data
