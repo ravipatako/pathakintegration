@@ -56,7 +56,7 @@ public class Main {
 		// Getting input from the user telling how many categories they want their money
 		// sort
 
-		Loans[] borrow = new Loans[5];
+	/*	Loans[] borrow = new Loans[5];
 		borrow[0] = new Installment();
 		borrow[1] = new Fixedrate();
 		borrow[2] = new Installment();
@@ -67,7 +67,7 @@ public class Main {
 		for (int x = 0; x < 5; ++x) {
 			borrow[x].approved();
 		}
-		
+	*/	
 	
 	}
 

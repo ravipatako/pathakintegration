@@ -1,11 +1,12 @@
 // Ravi Pathak
 // A program integrating skills learned in COP 2006
 public class Loans {
-	int creditCard = 1;
-	int shortTerm = 2;
-	int autoLoan = 3;
-	int homeLoan =4; 
+	String loanTypes[] = new String[4]
 	
+	public Loans(String typeLoan) {
+		
+		
+	}
 	
 	void approved() {
 		System.out.println("You were approved");
