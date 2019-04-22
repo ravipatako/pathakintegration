@@ -61,6 +61,9 @@ public class Main {
     System.out.println("The sum for the credit scores is:" + manualSum);
     System.out.println("Even though the sum of Fico Credit Scores are irrelevant." );
     
+    int indexLocation = Array.identifyArray();
+    System.out.println(indexLocation);
+    
 
     /*
      * Loans[] borrow = new Loans[5]; borrow[0] = new Installment(); borrow[1] = new Fixedrate();
