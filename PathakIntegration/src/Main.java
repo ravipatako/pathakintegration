@@ -56,7 +56,11 @@ public class Main {
     int moneySplit = scan.nextInt();
     scan.nextLine();
     // Getting input from the user telling how many categories they want their money
-    // sort
+   
+    int manualSum = creditScores.scoreReport(); //Calling the method scoreReport to print out the sum of an Array
+    System.out.println(manualSum);
+    
+    
 
     /*
      * Loans[] borrow = new Loans[5]; borrow[0] = new Installment(); borrow[1] = new Fixedrate();
