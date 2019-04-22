@@ -23,7 +23,7 @@ Manually find the smallest value in an array
 --
 
 Get a sum of the values in an array using an accumulator.
---
+-- Loans.Java and Main.Java
 
 Search an array and identify the index where a value was found.
 --
