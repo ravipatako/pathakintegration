@@ -17,7 +17,7 @@ Use super and this to access objects and constructors
 -- Installment.Java
 
 Declare, instantiate, initialize and use a one-dimensional array
---
+-- Loans.Java
 
 Manually find the smallest value in an array
 --
