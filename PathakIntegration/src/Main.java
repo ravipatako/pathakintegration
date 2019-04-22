@@ -58,8 +58,8 @@ public class Main {
     // Getting input from the user telling how many categories they want their money
    
     int manualSum = creditScores.scoreReport(); //Calling the method scoreReport to print out the sum of an Array
-    System.out.println(manualSum);
-    
+    System.out.println("The sum for the credit scores is:" + manualSum);
+    System.out.println("Even though the sum of Fico Credit Scores are irrelevant." );
     
 
     /*
