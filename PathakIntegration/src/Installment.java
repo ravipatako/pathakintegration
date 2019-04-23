@@ -1,6 +1,9 @@
 // Ravi Pathak
 // A program integrating skills learned in COP 2006
 public class Installment extends Loans {
+  private String autoLoan;
+  private String homeLoan;
+
   public Installment(String typeLoan) {
     super(typeLoan);
     // TODO Auto-generated constructor stub

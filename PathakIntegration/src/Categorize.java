@@ -5,7 +5,13 @@ public class Categorize {
   // At first the if statement was working with boolean values, but now it should
   // be changed to running an
   // string for being YES/NO
-
+  
+  /** Takes user input to understand what user wants with their money.
+   * 
+   * @param paycheck How much user is paid
+   * @param inputString If the user want to organize their money
+   * @return
+   */
   public static String budget(double paycheck, String inputString) {
     String error = "";
 
@@ -27,6 +33,13 @@ public class Categorize {
     return error;
 
   }
+  
+  /**.
+   * 
+   * @param moneySplit Takes in how many categories
+   *                users wants to split money with
+   * @return
+   */
 
   public static String categories(int moneySplit) {
     String goofed = "";

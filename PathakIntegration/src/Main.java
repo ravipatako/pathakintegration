@@ -12,8 +12,13 @@ import java.util.Scanner;
 // Driver Class
 public class Main {
   // header with the parameters in main method
-  public static void main(String[] args) {
+  /**
+   * Program starts with getting info from user.
+   * 
+   * @param args starts the program
+   */
 
+  public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
 
     System.out.println(
@@ -25,7 +30,7 @@ public class Main {
 
     // getting the hourly wage from the user
     System.out.println("Enter your hourly wage: ");
-    double wage = scan.nextDouble();
+    final double wage = scan.nextDouble();
     scan.nextLine();
 
     // user inputing their worked hours during the cycle
@@ -40,8 +45,8 @@ public class Main {
 
     double potentialPayment = workedHours * wage;
     double paycheck = Taxes.taxedMoney(wage, potentialPayment); // Calling the method and using the
-                                                                // parameters
-                                                                // "wage" and "Potential Payment"
+    // parameters "wage" and "Potential Payment"
+
     System.out.println("This is your taxed paycheck: $" + paycheck + "\n The taxes took out: $"
         + (potentialPayment - paycheck));
 
@@ -51,19 +56,21 @@ public class Main {
     // Comparing the input to the if else statement in the categorize class
     System.out.println(Categorize.budget(paycheck, inputString));
 
-    System.out.println(
-        "Now that we know you want to organize your new found wealth, \n how many categorize do you want it to get split up into? ");
+    System.out.println("Now that we know you want to organize your new found wealth, \n "
+        + "how many categorize do you want it to get split up into? ");
     int moneySplit = scan.nextInt();
     scan.nextLine();
     // Getting input from the user telling how many categories they want their money
-   
-    int manualSum = creditScores.scoreReport(); //Calling the method scoreReport to print out the sum of an Array
+
+    int manualSum = CreditScore.scoreReport();
+    // Calling the method scoreReport to print out the sum of an Array
     System.out.println("The sum for the credit scores is:" + manualSum);
-    System.out.println("Even though the sum of Fico Credit Scores are irrelevant." );
-    
-    int indexLocation = Array.identifyArray();
-    System.out.println(indexLocation);
-    
+    System.out.println("Even though the sum of Fico Credit Scores are irrelevant.");
+
+    /*
+     * int indexLocation = Array.identifyArray(); System.out.println(indexLocation);
+     */
+
 
     /*
      * Loans[] borrow = new Loans[5]; borrow[0] = new Installment(); borrow[1] = new Fixedrate();
