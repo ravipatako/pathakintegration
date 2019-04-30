@@ -65,6 +65,9 @@ public class Main {
     scan.nextLine();
     // Getting input from the user telling how many categories they want their money
 
+    // From this point of the program, the code is not heavily focused on the finance calculator
+    // but more for the requirements of the projects. Will update the calculator after the class
+
     int manualSum = CreditScore.scoreReport();
     // Calling the method scoreReport to print out the sum of an Array
     System.out.println("The sum for the credit scores is:" + manualSum);
