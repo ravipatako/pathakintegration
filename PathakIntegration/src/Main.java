@@ -70,6 +70,11 @@ public class Main {
     System.out.println("The sum for the credit scores is:" + manualSum);
     System.out.println("Even though the sum of Fico Credit Scores are irrelevant.");
 
+    int enhancedSum = Enhanceloop.loop();
+    // prints out the sum of the enhanced loop
+    System.out.println("The sum of the loop is " + enhancedSum);
+
+
     /*
      * int indexLocation = Array.identifyArray(); System.out.println(indexLocation);
      */
