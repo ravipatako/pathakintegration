@@ -29,7 +29,7 @@ Search an array and identify the index where a value was found.
 -- Array.Java
 
 Create and use the enhanced for loop
---
+-- Enhancedloop.Java
 
 Declare, instantiate, initialize and use multi-dimensional arrays
 --
